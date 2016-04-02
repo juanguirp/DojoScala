@@ -1,7 +1,7 @@
 # DojoScala
 
-Inicio del Dojo: 8:20 am
-Este documento tiene las notas obtenidas en el Dojo.
+Inicio del Dojo: 8:20 am  
+Este documento tiene las notas obtenidas en el Dojo.  
 
 ## Scala
 
@@ -15,11 +15,11 @@ Este documento tiene las notas obtenidas en el Dojo.
 
 // HOLA MUNDO (NO tengo idea cual es la extensión que maneja scala, supongo que “.scala” XD).
 
-object HolaMundo {
- def main(args: Array[String]) {
-  println("¡Hola, mundo!")
- }
-}
+object HolaMundo {  
+ def main(args: Array[String]) {  
+  println("¡Hola, mundo!")  
+ }  
+}  
 
 - Scala = Java (programación) + Lisp (Manejo eficiente: Funcionales).
 - Los lenguajes funcionales utilizan el CÁLCULO LAMBDA, una manera mucho más rápida y eficiente de programar. Pero la programación se hace más abstracta.
@@ -37,18 +37,18 @@ Lo utilizamos cuando:
 Aplicaciones reactivas: 
 - Aplicaciones con características resilientes (y otras 3 características que no fueron explicadas): recuperarse más fácilmente ante fallos
 
-Ensayando un proyecto:
-Descargamos el proyecto: https://github.com/dnetix/DojoScala2
-cd al proyecto
-sbt
-compile
-run list
-1 (o la opción que quiera)
-Si hay un cambio, de nuevo sbt y compile
+Ensayando un proyecto:  
+Descargamos el proyecto: https://github.com/dnetix/DojoScala2  
+cd al proyecto  
+sbt  
+compile  
+run list  
+1 (o la opción que quiera)  
+Si hay un cambio, de nuevo sbt y compile  
 
-Vamos a usar Play:
+Vamos a usar Play:  
 
-Lo descargamos:
+Lo descargamos:  
 cd ~
 wget http://downloads.typesafe.com/typesafe-activator/1.3.2/typesafe-activator-1.3.2-minimal.zip
 unzip typesafe-activator-1.3.2-minimal.zip
@@ -57,10 +57,14 @@ export PATH=~/activator:$PATH
 source ~/.bashrc
 chmod a+x activator/activator
 
-activator ui
-tener paciencia
-seleccionamos un proyecto ( el hola mundo de toda la vida)
-le indicamos la ruta
-Crear proyecto
-Click al “botoncito” RUN
-En “Code/src/main/scala/” está el código
+activator ui  
+tener paciencia  
+seleccionamos un proyecto ( el hola mundo de toda la vida)  
+le indicamos la ruta  
+Crear proyecto  
+Click al “botoncito” RUN  
+En “Code/src/main/scala/” está el código  
+
+INFO:  
+https://docs.google.com/presentation/d/18e--XDM1jPSIT8NzKPq7CYZaLRpQQE2UR4mAn_KMCHU/edit#slide=id.g10d8fc5e1f_0_723  
+https://github.com/dnetix/DojoScala2
